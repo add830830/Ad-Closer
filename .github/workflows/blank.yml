@@ -1,7 +1,3 @@
-2. Add the workflow
-Create .github/workflows/build.yml with the following contents:
-
-yaml
 
 name: Build Android APK
 
@@ -40,4 +36,3 @@ jobs:
         with:
           name: android-adcloser-debug
           path: app/build/outputs/apk/debug/*.apk
-Important: This assumes the project has a Gradle wrapper (gradlew),
